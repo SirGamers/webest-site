@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+  color: white;
+  text-align: center;
+}
+
+div.container {
+  text-align: center;
+  color: white
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+  color: white
+}
