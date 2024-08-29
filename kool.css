@@ -5,15 +5,18 @@ body {
 h1, h2, h3, h4, h5, h6, p, a {
   color: white;
   text-align: center;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 div.container {
   text-align: center;
-  color: white
+  color: white;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 ul {
   display: inline-block;
   text-align: left;
-  color: white
+  color: white;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
