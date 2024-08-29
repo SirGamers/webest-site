@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>remember...</title>
+    <link rel="stylesheet" href="kool.css">
+    <!-- css is really funny -->
+</head>
+<body>
+    <!--
+    god it took so much time to make this work
+    this a joke page!
+    why did i make this
+    oh right for funny
+    but hey
+    i figured out the problem
+    and hooray for UA-Parser (stored in funny.js)
+    -->
+    <script src=funny.js></script>
+    <h3>human...</h3>
+    <h3>i remember you're</h3>
+    <div id="geno"></div>
+    <script>
+        var parser = new UAParser();
+        var ua = navigator.userAgent;
+        let text = "<h1 style=color:red>" + parser.setUA(ua).getBrowser().name + "s</h1>";
+        document.getElementById("geno").innerHTML = text;
+    </script>
+    <h3><a href=https://youtube.com/@sirthatgames>youtube</a></h3>
+</body>
